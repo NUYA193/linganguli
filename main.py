@@ -1,6 +1,12 @@
 import random
 
+def wer(a,b):
+    c=random.randint(a,b)
+    return c
+  
+
 a=int(input("Введите число"))
 b=int(input("Введите число"))
-c=random.randint(a,b)
-print("Ваше число:",c)
+
+res = wer(a,b)
+print("Ваше число:",res)
